@@ -1,0 +1,32 @@
+{
+  "name": "solophp/entity-repository",
+  "type": "library",
+  "description": "Solo EntityRepository - A modern, type-safe implementation of the Repository pattern for PHP domain entities. Provides a robust data access layer with automatic entity mapping and collection support",
+  "keywords": [
+    "repository",
+    "data mapper",
+    "query-builder",
+    "database",
+    "orm",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaliy Olos",
+      "email": "vedastudio@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Solo\\": "Solo/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "solophp/database": "^2.6",
+    "solophp/query-builder": "^1.1"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
